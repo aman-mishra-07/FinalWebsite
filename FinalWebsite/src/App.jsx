@@ -7,12 +7,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    
+    <div className='bg-slate-800'>
+
     <Flownavbar></Flownavbar>
     <Flowcrousal></Flowcrousal>
 
     <Flowfooter></Flowfooter>
-    </>
+    </div>
+    
   )
 }
 
