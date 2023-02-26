@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Flowcards from './components/cards'
 import Flowcrousal from './components/crousal'
 import Flowfooter from './components/footer'
 import Flownavbar from './components/navbar'
@@ -11,6 +12,7 @@ function App() {
     <div className='bg-slate-800'>
 
     <Flownavbar></Flownavbar>
+    <Flowcards></Flowcards>
     <Flowcrousal></Flowcrousal>
 
     <Flowfooter></Flowfooter>

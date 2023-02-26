@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png"
 export default function Flowfooter(){
     return(
         <>
-        <Footer container={true} className="bottom-0 absolute">
+        <Footer container={true} className="mt-2">
     <div className="w-full text-center">
     <div className="w-full justify-between sm:flex sm:items-center sm:justify-between ">
       <Footer.Brand
