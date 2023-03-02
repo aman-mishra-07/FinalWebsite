@@ -12,16 +12,16 @@ export default function Flowfooter() {
               name="PVC STUDIO"
             />
             <Footer.LinkGroup>
-              <Footer.Link href="#">
+              <Footer.Link href="#" className="pr-1">
                 About
               </Footer.Link>
-              <Footer.Link href="#">
+              <Footer.Link href="#" className="pr-1">
                 Privacy Policy
               </Footer.Link>
-              <Footer.Link href="#">
+              <Footer.Link href="#" className="pr-1">
                 Licensing
               </Footer.Link>
-              <Footer.Link href="#">
+              <Footer.Link href="#" className="pr-1">
                 Contact
               </Footer.Link>
             </Footer.LinkGroup>

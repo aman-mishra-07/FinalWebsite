@@ -3,7 +3,7 @@ import cinematography from '../img/servicesBG/cinematography.jpg'
 import photography from '../img/servicesBG/photography.jpg'
 import videography from '../img/servicesBG/videography.jpg'
 import editing from '../img/servicesBG/editing.jpg'
-import About from "../pages/about"
+
 
 export default function Flowcards() {
     return (
