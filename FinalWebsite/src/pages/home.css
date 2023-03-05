@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/camera.jpg');
+    background-size: cover;
+    background-position: center;
+    position: static;
+    z-index: -10;
+    color: white;
+   
+}
+h1,p,btn{
+    font-family: 'Ubuntu', sans-seri;
+}
