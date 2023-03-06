@@ -1,9 +1,27 @@
 import Flowcards from '../components/cards';
-export default function Services() {
+export default function Services(props
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ) {
     return(
         
-     
-        <Flowcards></Flowcards>
+     <> <Flowcards heading="this is " cinematography={props.image}></Flowcards>
+       <Flowcards heading="this is  fjakls"></Flowcards></>
+      
+       
      
       
     )
