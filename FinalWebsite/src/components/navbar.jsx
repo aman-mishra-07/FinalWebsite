@@ -5,7 +5,7 @@ import Logo from "../assets/logo.png"
 export default function Flownavbar() {
   return (
     <>
-      <Navbar fluid={true} rounded={true} className="shadow sticky top-0">
+      <Navbar fluid={true} rounded={true} className="shadow sticky top-0 z-50">
         <Navbar.Brand>
           <img
             src={Logo}
