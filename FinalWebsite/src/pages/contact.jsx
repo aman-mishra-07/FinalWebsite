@@ -1,11 +1,17 @@
 export default function Contact() {
     return(
         <>
-        <div className="bg-slate-200">
-
-        <h1 className="bg-slate-300 text-3xl text-center">Contact</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta atque, vero molestiae a quam quas qui. Incidunt vel necessitatibus harum perferendis optio eum laboriosam eos libero repudiandae maiores ea fugiat, distinctio placeat ut voluptas adipisci ipsam inventore culpa obcaecati doloribus itaque dignissimos aut. Asperiores iste at eum, earum ducimus corrupti voluptatum vitae aliquam neque aperiam! Blanditiis quos corporis dicta enim. Officiis expedita odit blanditiis incidunt. Ipsam, porro deleniti nostrum at obcaecati molestiae dolorum dolor recusandae omnis ab, repudiandae repellat similique ullam illum perferendis inventore quis voluptatum dignissimos aperiam, error vero repellendus. Rerum eos porro repudiandae. Quas odit necessitatibus tempora odio!</p>
+        <div className="parent flex flex-wrap flex-row justify-evenly items-center text-white w-full h-screen backdrop-blur-sm">
+        <div className="left bg-transparent p-8 bg-white bg-opacity-20 rounded-3xl">
+            <h1 className="text-center text-2xl">Aman PVC Studio</h1>
+            <form action="post" className="p-4 flex flex-col ">
+                <label htmlFor="user">Name</label><input type="text" name="user" placeholder="enter your name" className="bg-transparent m-2 rounded-2xl" />
+                <label htmlFor="email">Email</label><input type="email" name="email" placeholder="enter your email" className="bg-transparent m-2 rounded-2xl" />
+                <input type="submit" value="Submit" className=" bg-sky-700 p-2 m-2 rounded-2xl "/>
+            </form>
         </div>
+        <div className="right">hello</div>    
+        </div>  
         </>
     )
     
