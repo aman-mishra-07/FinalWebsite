@@ -1,7 +1,7 @@
 export default function ContactForm(props) {
     return(
         <>
-        <div className="left p-8 bg-slate-900 bg-opacity-40 rounded-3xl border border-white ">
+        <div className="left p-8 bg-slate-900 bg-opacity-70 rounded-3xl border border-white ">
                     <h1 className="text-center text-4xl">{props.formname}</h1>
                     <p className="text-center text-md">{props.msg}</p>
                     <form action="form.php" className="p-4 flex flex-col ">
