@@ -13,11 +13,17 @@ export default function Home(){
               </div>
 
               
-        <div id ="home2" className="home min-w-full min-h-screen -z-10 blurbgfull">
+        <div id ="home2" className="home min-w-full h-fit -z-10 blurbgfull">
         <h1 className='text-5xl text-center'>OUR WORK</h1>
-        <div className='w-90 flex flex-row '>
-            <img src="img/services/baby.jpg" alt="baby image" className=' h-80 w-80 m-10 rounded-2xl' />
-            <img src="img/services/wedding.jpg" alt="wedding image" className=' h-80 w-80 m-10 rounded-2xl' />
+        <div className='w-90 grid grid-cols-4 max-sm:grid-cols-1 grid-rows-1 max-md:grid-cols-2 max-lg:grid-cols-3 '>
+            <img src="img/services/product.jpg" alt="product" className='  h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/wedding.jpg" alt="wedding" className=' h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/prewed.jpg" alt="prewedding" className=' h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/potrait.jpg" alt="potrait" className=' h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/fashion.jpg" alt="fashion" className=' h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/video.jpg" alt="video" className=' h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/landscape.jpg" alt="landscape" className=' h-60 w-60 m-5 rounded-2xl' />
+            <img src="img/services/events.jpg" alt="events" className=' h-60 w-60 m-5 rounded-2xl' />
 
         </div>
          

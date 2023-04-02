@@ -12,6 +12,7 @@ export default function ContactForm(props) {
                         <label htmlFor="phone">Phone Number</label>
                         <input type="text" name="phone" placeholder="###-###-####" className="bg-transparent m-2 rounded-2xl border-white " />
                         <input type="submit" value="Submit" className=" bg-sky-700 p-2 m-2 rounded-2xl hover:bg-sky-600 " />
+                    
                     </form>
                     <p className="text-center text-md">You may also Contact Us at: <br />{props.phone}</p>
                 </div>
