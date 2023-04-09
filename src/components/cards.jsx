@@ -11,7 +11,7 @@ export default function Flowcards(props) {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                        {props.heading}
                     </h5>
-                    <Button>
+                    <Button href="/Contact">
                         Book Now!  
                     </Button>
 

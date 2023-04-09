@@ -25,6 +25,20 @@ export default function BookingForm(props) {
                     <input type="text" className="bg-transparent m-2 rounded-2xl border-white" placeholder="state" />
                     <input type="text" className="bg-transparent m-2 rounded-2xl border-white" placeholder="Zip Code" />
 
+                    <label htmlFor="service" className="text-xl">Select the service</label>
+                    <select name="service" id="service" className="bg-transparent m-2 rounded-2xl border-white">
+                        <option value="Potrait" className="text-black">Potrait</option>
+                        <option value="Wedding" className="text-black">Wedding</option>
+                        <option value="Pre-Wedding" className="text-black">Pre-Wedding</option>
+                        <option value="Industrial" className="text-black">Industrial</option>
+                        <option value="baby-shoot" className="text-black">baby-shoot</option>
+                        <option value="fashion" className="text-black">fashion</option>
+                        <option value="Product" className="text-black">Product</option>
+                        <option value="Landscape" className="text-black">Landscape</option>
+                    </select>
+
+
+
                 </form>
 
                 <p className="text-center text-md m-8">You may also Contact Us at: <br />{props.phone}</p>
